@@ -90,10 +90,8 @@ contract NftMarketplace is ReentrancyGuard {
         }
         _;
     }
-
-    /////////////////////
-    // Main Functions  /
-    ///////////////////
+    
+    // Main Functions  //    
 
     /*
      * @notice Method for listing a NFT on the marketplace
@@ -175,10 +173,8 @@ contract NftMarketplace is ReentrancyGuard {
             revert NftMarketplace__TransferFailed();
         }
     }
-
-    //////////////////////
-    // GetterFunctions //
-    ////////////////////
+    
+    // GetterFunctions //    
 
     function getListing(
         address nftAddress,
